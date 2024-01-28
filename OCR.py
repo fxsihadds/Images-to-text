@@ -146,9 +146,7 @@ def main():
         srt_file.writelines(srt_file_list[i])
     srt_file.close()
 
-# this is a function for scan images
-
-
+# This is a function for scan images
 def ocr_image(image, line, credentials, current_directory):
     tries = 0
     while True:
